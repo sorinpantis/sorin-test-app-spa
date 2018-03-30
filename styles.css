@@ -1,0 +1,74 @@
+/* Scafolding */
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Condensed');
+
+body {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-size: 16px;
+    background-color: #ffffff;
+    color: #ababab;
+    padding: 30px;
+}
+
+a {
+    color: #000;
+    font-weight: bolder;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+h1 {
+  padding-bottom: 20px;
+  color: #000;
+}
+
+.section {
+
+}
+
+.section:first-child {
+    margin-top: 0;
+}
+
+button {
+  width: 250px;
+  height: 45px;
+  border-width: 0;
+}
+
+.form-inline {
+  width: 404px;
+  display: inline-block;
+}
+
+.input-group input {
+  height: 45px;
+  width: 255px !important;
+  -webkit-box-shadow: 0 0 0 #fff;
+	-moz-box-shadow: 0 0 0 #fff;
+	box-shadow: 0 0 0 #fff;
+  background-color: #e8f5ff;
+  border-color: #337ab7;
+  border-left-width: 0;
+}
+
+.input-group input:focus {
+  background-color: #fff;
+  -webkit-box-shadow: 0 0 0 #fff;
+  -moz-box-shadow: 0 0 0 #fff;
+  box-shadow: 0 0 0 #fff;
+}
+
+.panel {
+  color: #000000;
+  font-size: 15px;
+}
+
+.panel-body {
+  padding-left: 40px;
+}
+
+.panel a {
+  color: #4f9fcf;
+}
