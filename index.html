@@ -30,8 +30,30 @@ var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.a
 <body>
 
     <div class="section">
-        <h1>CS Map Single Page Application - JS API</h1>
+        <h1>CS Playground - SPA</h1>
     </div>
+
+    <h2>HIGHTOUCH</h2><br>
+
+    <button class="btn btn-warning" type="button" id="btn-ht-boot-js">Load HT Event JS</button>
+    <br><br>
+
+    <button class="btn btn-primary" type="button" id="btn-ht-event">Track Event "invited-friend"</button>
+    <br><br>
+
+    <form class="form-inline">
+      <div class="input-group">
+
+        <span class="input-group-btn">
+          <button class="btn btn-primary" type="button" id="btn-ht-event-custom">Track custom event</button>
+        </span>
+        <input id="input-ht-event-name" type="text" class="form-control" placeholder="Event name">
+      </div>
+    </form>
+
+    <br><br>    <br><br>    
+
+    <h2>INTERCOM</h2><br>
 
     <button class="btn btn-warning" type="button" id="btn-boot-lead">Boot LEAD</button>
     <button class="btn btn-danger" type="button" id="btn-shutdown">SHUTDOWN</button>
@@ -53,11 +75,6 @@ var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.a
     <button class="btn btn-primary" type="button" id="btn-boot-user-random">NEW RANDOM USER</button>
 
     <br> <br>
-
-    <button class="btn btn-default" type="button" id="btn-seg-identify">SEGMENT identify() - Gunther</button>
-    <button class="btn btn-default" type="button" id="btn-seg-page">SEGMENT page() - Lead</button>
-
-    <br><br>
 
     <button class="btn btn-primary" type="button" id="btn-update">UPDATE with no parameters</button>
     <button class="btn btn-primary" type="button" id="btn-update-data">UPDATE with current time</button>
@@ -98,18 +115,23 @@ var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.a
     <button class="btn btn-default" type="button" id="btn-on-show">onShow</button>
     <button class="btn btn-default" type="button" id="btn-on-activator-click">onActivatorClick</button>
 
+    <br><br>    <br><br>    
+
+    <h2>SEGMENT</h2><br>    
+
+    <button class="btn btn-default" type="button" id="btn-seg-identify">SEGMENT identify() - Gunther</button>
+    <button class="btn btn-default" type="button" id="btn-seg-page">SEGMENT page() - Lead</button>
+
+    <br><br>
+
+
 <br><br>
 
   <div class="panel panel-default">
     <h3 class="panel-heading">Notes</h3>
 
     <ul class="panel-body">
-      <li>This page uses <a href="https://developers.intercom.com/docs/intercom-javascript">Intercom JavaScript API</a>.</li>
-      <li>This page is connected to CS Map Intercom app.</li>
       <li>Open the browser console to follow the logs as you test.</li>
-      <li>The code is available on <a href="https://github.com/intercom/cs-map-spa">Github</a>.</li>
-      <li>User <code>Chandler Bing</code> also tracks UTM variables if they exist in the URL.
-        Details about that <a href="https://orientation.internal.intercom.io/articles/get-google-analytics-utm-parameters-from-the-url-as-custom-attributes-in-intercom">here</a>.</li>
     </ul>
 
   </div>
